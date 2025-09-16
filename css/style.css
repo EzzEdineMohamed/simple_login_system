@@ -1,0 +1,12 @@
+.container .form-floating input:focus {
+  outline: none !important;
+}
+
+.container .btn:hover {
+    color: white !important;
+    background-color: #0DCAF0 !important;
+}
+
+.container a:hover {
+    text-decoration: underline !important;
+}

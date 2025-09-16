@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign up page</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body class="m-0 overflow-hidden bg-dark vh-100">
+    <section class="d-flex flex-column justify-content-center">
+      <div class="container text-center">
+        <div class="shadow w-75 m-auto p-5 mt-5">
+          <h1 class="text-info text-capitalize">smart login system</h1>
+          <div class="my-5">
+            <div class="form-floating mx-auto">
+              <input
+                id="email"
+                type="email"
+                class="border-0 border-bottom rounded mt-3 p-3 w-100"
+                placeholder="Enter Your Mail"
+              />
+            </div>
+            <div class="form-floating mx-auto">
+              <input
+                id="username"
+                type="text"
+                class="border-0 border-bottom rounded mt-3 p-3 w-100"
+                placeholder="Enter Your user name"
+              />
+            </div>
+            <div class="form-floating m-auto">
+              <input
+                id="password"
+                required
+                minlength="5"
+                type="password"
+                class="border-0 border-bottom rounded mt-3 p-3 w-100"
+                placeholder="Enter Your Password"
+              />
+            </div>
+            <button
+              class="w-100 mx-auto btn border border-1 border-info bg-dark text-info p-2 mt-4"
+            >
+              sign up
+            </button>
+          </div>
+          <p class="text-white fw-medium text-capitalize">
+            already have account ?
+            <a
+              href="index.html"
+              class="text-decoration-none text-white text-capitalize"
+            >
+              signin
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/signup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login system</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body class="m-0 overflow-hidden">
+    <section class="bg-dark vh-100">
+      <div
+        class="container text-center d-flex flex-column justify-content-center"
+      >
+        <div class="shadow w-75 m-auto p-5 mt-5">
+          <h1 class="text-info text-capitalize">smart login system</h1>
+          <div class="my-5">
+            <div class="form-floating mx-auto">
+            <input
+              id="mail"
+              type="email"
+              class="border-0 border-bottom rounded mt-2 p-3 w-100"
+              placeholder="Enter Your Mail"
+            />
+          </div>
+          <div class="form-floating m-auto">
+            <input
+              id="pass"
+              type="password"
+              class="border-0 border-bottom rounded my-3 p-3 w-100"
+              placeholder="Enter Your Password"
+            />
+          </div>
+          <button
+            class="w-100 mx-auto btn border border-1 border-info bg-dark text-info p-2"
+          >
+            sign in
+          </button>
+          </div>
+          <p class="text-white fw-medium text-capitalize" > dont have account ? <a href="signup.html" class="text-decoration-none text-white text-capitalize"> signup </a> </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/signin.js"></script>
+  </body>
+</html>
