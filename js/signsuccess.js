@@ -2,5 +2,5 @@
 var btn = document.querySelector("button");
 
 btn.addEventListener("click" , function() {
-    window.location.href = "signinpage.html"
+    window.location.href = "index.html"
 })

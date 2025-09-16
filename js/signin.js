@@ -79,7 +79,8 @@ btn.addEventListener("click", function() {
         }
     }
 
-    // لو مفيش user مطابق
     message.innerText = "This email is not registered or wrong password";
     message.style.color = "red";
 });
+
+
